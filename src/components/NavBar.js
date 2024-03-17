@@ -9,12 +9,12 @@ import navIcon2 from "../assets/nav-icon2.svg";
 import navIcon3 from "../assets/nav-icon3.svg";
 
 export const NavBar = () => {
-  const {activeLink, setActiveLink} = useState('home');
-  const {scrolled, setScrolled} = useState(false);
+  const [activeLink, setActiveLink] = useState('home');
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
-        if  (window.scrollY > 50) {
+        if (window.scrollY > 50) {
             setScrolled(true);
         } else {
             setScrolled(false);
