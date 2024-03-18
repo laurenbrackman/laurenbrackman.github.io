@@ -1,9 +1,12 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Container, Row, Col } from "react-bootstrap";
-import meter1 from "../assets/meter1.svg"
-import meter2 from "../assets/meter2.svg"
-import meter3 from "../assets/meter3.svg"
+import GitIcon from "../assets/git.png";
+import HTMLIcon from "../assets/html.png";
+import PythonIcon from "../assets/python.png";
+import FigmaIcon from "../assets/figma.png";
+import WebflowIcon from "../assets/webflow.png";
+import AdobeIcon from "../assets/cc.png";
 
 export const Skills = () => {
   const responsive = {
@@ -32,25 +35,33 @@ export const Skills = () => {
                 <Col>
                 <div className="skill-bx">
                     <h2>
-                        Skills
+                        My Toolkit
                     </h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className='item'>
-                            <img src={meter1} alt="Image"/>
-                            <h5>Web Development</h5>
+                            <img src={WebflowIcon} alt="Image"/>
+                            <h5>WebFlow</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter2} alt="Image"/>
-                            <h5>Web Design</h5>
+                            <img src={HTMLIcon} alt="Image"/>
+                            <h5>HTML/CSS</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter3} alt="Image"/>
-                            <h5>Graphic Design</h5>
+                            <img src={FigmaIcon} alt="Image"/>
+                            <h5>Figma</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter1} alt="Image"/>
-                            <h5>Branding</h5>
+                            <img src={AdobeIcon} alt="Image"/>
+                            <h5>Adobe Creative Cloud</h5>
+                        </div>
+                        <div className='item'>
+                            <img src={PythonIcon} alt="Image"/>
+                            <h5>Flask</h5>
+                        </div>
+                        <div className='item'>
+                            <img src={GitIcon} alt="Image"/>
+                            <h5>Git</h5>
                         </div>
                     </Carousel>
                 </div>

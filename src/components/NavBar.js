@@ -5,8 +5,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useState, useEffect } from 'react';
 import logo from "../assets/name.png";
 import navIcon1 from "../assets/nav-icon1.svg";
-import navIcon2 from "../assets/nav-icon2.svg";
+import emailIcon from "../assets/email.png";
+import gitHubIcon from "../assets/github.png";
 import navIcon3 from "../assets/nav-icon3.svg";
+import Resume from "../assets/Lauren_Brackman_Resume.pdf";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -47,10 +49,11 @@ export const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
                 <a href="#"><img src={navIcon1} alt=""/></a>
-                <a href="#"><img src={navIcon2} alt=""/></a>
+                <a href="#"><img src={gitHubIcon} alt=""/></a>
                 <a href="#"><img src={navIcon3} alt=""/></a>
+                <a href="#"><img src={emailIcon} alt=""/></a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+            <a href={Resume}><button className="vvd" ><span>View My Resume</span></button></a>
             </span>
         </Navbar.Collapse>
       </Container>
