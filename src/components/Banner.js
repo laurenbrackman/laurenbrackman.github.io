@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/DoodlePhoto.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import headerImg from "../assets/cropped-image.png";
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
@@ -57,7 +56,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Lauren`}</h1>
                 <h3><span className="wrap">{text}</span></h3>
-                  <p>Recent computer science graduate turned designer. I love working with small businesses and Christian ministries to develop an effective digital presence. Currently, I manage media full-time at Grace Bible Church in Bozeman, MT.</p>
+                  <p>Have you ever needed a designer and code whiz all in one? You’re in the right place! I love working with small businesses and Christian ministries to elevate their digital presence with beautiful and functional websites.</p>
               </div>}
             </TrackVisibility>
           </Col>
