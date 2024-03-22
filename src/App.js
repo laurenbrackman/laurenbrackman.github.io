@@ -13,8 +13,10 @@ function App() {
       <NavBar />
       <Banner />
       <Projects />
-      <Skills />
-      <About />
+      <div className='overlap'>
+        <Skills />
+        <About />
+      </div>
       <Footer />
     </div>
   );
