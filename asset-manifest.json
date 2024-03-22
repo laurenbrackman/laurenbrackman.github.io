@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.a432aadc.css",
-    "main.js": "/static/js/main.1e695c67.js",
+    "main.css": "/static/css/main.1b850b3c.css",
+    "main.js": "/static/js/main.f9b645b0.js",
     "static/js/453.534db5b8.chunk.js": "/static/js/453.534db5b8.chunk.js",
-    "static/media/cropped-image.png": "/static/media/cropped-image.8c9e5717bca29c4cb674.png",
+    "static/media/cropped-image.png": "/static/media/cropped-image.bc5c3597ed535fe53bc7.png",
+    "static/media/Project Photos.png": "/static/media/Project Photos.2bdaaf558b2374aff6c3.png",
     "static/media/SourceCodePro-VariableFont_wght.ttf": "/static/media/SourceCodePro-VariableFont_wght.46e9d73a686e6dc90ddc.ttf",
     "static/media/profilephoto.jpeg": "/static/media/profilephoto.a91e71dd39af27a1f1a0.jpeg",
     "static/media/Lauren_Brackman_Resume.pdf": "/static/media/Lauren_Brackman_Resume.a3d4416255d68aaee324.pdf",
@@ -16,12 +17,12 @@
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
-    "main.a432aadc.css.map": "/static/css/main.a432aadc.css.map",
-    "main.1e695c67.js.map": "/static/js/main.1e695c67.js.map",
+    "main.1b850b3c.css.map": "/static/css/main.1b850b3c.css.map",
+    "main.f9b645b0.js.map": "/static/js/main.f9b645b0.js.map",
     "453.534db5b8.chunk.js.map": "/static/js/453.534db5b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a432aadc.css",
-    "static/js/main.1e695c67.js"
+    "static/css/main.1b850b3c.css",
+    "static/js/main.f9b645b0.js"
   ]
 }
