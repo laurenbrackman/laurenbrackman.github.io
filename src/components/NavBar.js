@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useState, useEffect } from 'react';
 import logo from "../assets/name.png";
 import navIcon1 from "../assets/nav-icon1.svg";
@@ -53,7 +52,7 @@ export const NavBar = () => {
                 <a href="https://www.instagram.com/brackmanwebsites/"><img src={navIcon3} alt=""/></a>
                 <a href="mailto:lgbrackman@gmail.com"><img src={emailIcon} alt=""/></a>
             </div>
-            <a href={Resume}><button className="vvd" ><span>View My Resume</span></button></a>
+            <a href={Resume}><button className="vvd" target="_blank"><span>View My Resume</span></button></a>
             </span>
         </Navbar.Collapse>
       </Container>
