@@ -348,8 +348,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   text-align: center;
 }
+
+.project h5{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.project li{
+  list-style-type: none;
+  margin-left: 20px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
 .project p {
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
 }
@@ -383,17 +398,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90deg, rgba(250,180,0,1) 0%, rgba(244,137,73,1) 38%, rgba(186,206,223,1) 100%);
     top: 0;
     left: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
 .project .nav.nav-pills .nav-link.active::before {
-    width: 100% !important;
+  width: 100% !important;
 }
 .project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
