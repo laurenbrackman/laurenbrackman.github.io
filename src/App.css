@@ -369,6 +369,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
 }
 
+.project img{
+  margin-bottom: 20px;
+}
+
 .project .sampling{
   text-align: center;
   margin: 20px;
@@ -484,6 +488,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 95px;
+  overflow: hidden;
+  padding: 25px;
 }
 
 /************ About Css ************/

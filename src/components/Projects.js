@@ -1,5 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
+import BrightvineBanner from "../assets/Project Photos.png"
 
 export const Projects = () => {
 
@@ -42,6 +43,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className="content">
                     <Tab.Pane eventKey="first">
+                      <img src={BrightvineBanner} alt="Website Designs for fin-tech company"/>
                       <h3>The Client</h3>
                       <p>Brightvine is a fin-tech startup with high ambitions to 
                         revolutionize the secondary mortgage marketing leveraging
