@@ -39,27 +39,27 @@ export const Skills = () => {
                     </h2>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className='item'>
-                            <img src={WebflowIcon} alt="Image"/>
+                            <img src={WebflowIcon} alt="Wwebflow Icon"/>
                             <h5>WebFlow</h5>
                         </div>
                         <div className='item'>
-                            <img src={HTMLIcon} alt="Image"/>
+                            <img src={HTMLIcon} alt="HTML Icon"/>
                             <h5>HTML/CSS</h5>
                         </div>
                         <div className='item'>
-                            <img src={FigmaIcon} alt="Image"/>
+                            <img src={FigmaIcon} alt="Figma Icon"/>
                             <h5>Figma</h5>
                         </div>
                         <div className='item'>
-                            <img src={AdobeIcon} alt="Image"/>
+                            <img src={AdobeIcon} alt="Adobe CC Icon"/>
                             <h5>Adobe Creative Cloud</h5>
                         </div>
                         <div className='item'>
-                            <img src={PythonIcon} alt="Image"/>
+                            <img src={PythonIcon} alt="Python Icon"/>
                             <h5>Flask</h5>
                         </div>
                         <div className='item'>
-                            <img src={GitIcon} alt="Image"/>
+                            <img src={GitIcon} alt="Git Icon"/>
                             <h5>Git</h5>
                         </div>
                     </Carousel>
