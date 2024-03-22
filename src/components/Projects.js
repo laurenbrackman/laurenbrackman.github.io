@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
-import BrightvineBanner from "../assets/Project Photos.png"
+import BrightvineBanner from "../assets/Project Photos 1.png"
+import NBBBanner from "../assets/Project Photos 2.png"
+import GMTRBanner from "../assets/Project Photos 3.png"
 
 export const Projects = () => {
 
@@ -86,6 +88,7 @@ export const Projects = () => {
                       <h5>Responsive Typography</h5><li>Matching font sizes between Figma and Webflow proved to be a crucial aspect of my development process as I navigated the intricacies of px, pt, em, and vh units. While initially relying on viewport-based font sizing, I discovered its limitations in maintaining consistent design elements. Through experimentation and research, I adopted breakpoint-based font sizes to ensure optimal legibility and design predictability across various devices and screen sizes.</li></p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
+                    <img src={NBBBanner} alt="Website Designs for Montana bison company"/>
                     <h3>The Client</h3>
                       <p>North Bridger Bison is a family-owned bison ranch located in the heart of Montana, USA, renowned for its commitment to animal welfare and community-oriented business practices. They offer high-quality bison meat in large quantities to a variety of customers, from health-conscious chefs to large families simply looking to save money on groceries.</p>
                       <h3>The Problem</h3>
@@ -106,6 +109,7 @@ export const Projects = () => {
                       <h5>Addressing Pain Points</h5><li>Emphasizing clear FAQs and visual aids helped cultivate trust with customers, mitigating friction points in the customer journey and bolstering confidence in the purchasing in such a large quantity.</li></p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
+                    <img src={GMTRBanner} alt="Website Designs for Christian Clothing Brand"/>
                     <h3>The Client</h3>
                     <p>Young adults need accessible ways to remind themselves of and share the biblical meaning behind the rainbow in everyday life. For this personal case study, I embarked on launching a Christian apparel business called "God Made the Rainbow." This business specializes in providing biblically inspired clothing and accessories that aim to convey counter-cultural biblical truths, particularly surrounding the symbolism of the rainbow.</p>
                     <h3>The Problem</h3>
