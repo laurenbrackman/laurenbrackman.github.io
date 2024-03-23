@@ -51,6 +51,12 @@ p, a, li, button, ul {
   text-decoration: none;
 }
 
+p {
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -139,7 +145,7 @@ span.navbar-text {
     width: 42px;
     height: 42px;
     position: absolute;
-    background-color: #f48949;
+    background: linear-gradient(90deg, rgba(250,180,0,1) 0%, rgba(244,137,73,1) 38%, rgba(186,206,223,1) 100%);
     border-radius: 50%;
     transform: scale(0);
 	transition: 0.3s ease-in-out;
@@ -172,7 +178,7 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: rgba(250,180,0,1);
+  background: linear-gradient(90deg, rgba(250,180,0,1) 0%, rgba(244,137,73,1) 38%, rgba(186,206,223,1) 100%);
   left: 0;
   top: 0;
   z-index: -1;
@@ -238,17 +244,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 200px 0 150px 0;
+  padding: 150px 0 150px 0;
   background:#fff ;
 }
+
 .banner .tagline {
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 0.8px;
   padding: 8px 10px;
   background: linear-gradient(90deg, rgba(250,180,0,1) 0%, rgba(244,137,73,1) 38%, rgba(186,206,223,1) 100%);
   border: 1px solid #121212;
-  font-size: 20px;
-  margin-bottom: 16px;
+  font-size: 16px;
+  margin-bottom: 20px;
   display: inline-block;
 }
 .banner h1 {
@@ -266,6 +273,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  margin-top: 20px;
+  font-weight: 300;
 }
 .banner button {
   color: #121212;
@@ -289,10 +298,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img{
   object-fit:contain;
   max-height: 500px;
-}
-
-.wrap{
-  font-size: 48px;
 }
 
 /************ Skills Css ************/
@@ -337,7 +342,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 50px 0;
   position: relative;
   background-color: #EFF0EE;
   color: #121212;
@@ -494,6 +499,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 95px;
   overflow: hidden;
   padding: 25px;
+}
+
+.casestudy{
+  margin: 20px 200px 20px 200px;
 }
 
 /************ About Css ************/
