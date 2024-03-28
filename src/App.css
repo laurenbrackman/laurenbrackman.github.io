@@ -52,6 +52,7 @@ p, a, li, button, ul {
 }
 
 p {
+  font-family: Centra;
   font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -260,9 +261,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner h1 {
   color: #121212;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 700;
-  letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
@@ -272,7 +272,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
+  width: 90%;
   margin-top: 20px;
   font-weight: 300;
 }
@@ -356,6 +356,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project h5{
   margin-top: 20px;
   margin-left: 20px;
+  font-family: 'Source Code Pro';
 }
 
 .project li{
@@ -365,6 +366,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin-bottom: 20px;
+  font-family: 'Centra';
 }
 
 .project p {
@@ -375,6 +377,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .project img{
   margin-bottom: 20px;
+}
+
+.project button{
+  background-color: #FAF3E9;
+  border: 1px solid #121212;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+}
+
+.project button:hover{
+  background: linear-gradient(90deg, rgba(250,180,0,1) 0%, rgba(244,137,73,1) 38%, rgba(186,206,223,1) 100%);
+  transition: 0.3s ease-in-out;
 }
 
 .project .sampling{
@@ -502,7 +521,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .casestudy{
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20% 20px 20%;
 }
 
 /************ About Css ************/
@@ -526,6 +545,46 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about h2 {
 	font-size: 45px;
 	font-weight: 700;
+}
+
+@media all and (max-width: 1020px) {
+  .about {
+    text-align: center; /* Center the text */
+  }
+  
+  .about h2 {
+    margin-top: 1rem;
+    font-size: 35px;
+  }
+
+  .about img{
+    display: block;
+    margin: auto;
+  }
+}
+
+@media all and (max-width:990px) {
+  .banner img{
+    max-width: 75%;
+  }
+
+  nav.navbar a.navbar-brand {
+    display: block;
+    margin: auto;
+    width: 50%
+  }
+
+  .about p{
+    display: block;
+    margin:auto;
+    width: 75%;
+  }
+
+  .casestudy{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
 }
 
 /************ Footer Css ************/

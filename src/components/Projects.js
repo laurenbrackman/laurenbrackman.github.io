@@ -1,8 +1,14 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav} from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
-import BrightvineBanner from "../assets/Project Photos 1.png"
-import NBBBanner from "../assets/Project Photos 2.png"
-import GMTRBanner from "../assets/Project Photos 3.png"
+import Brightvineimg1 from "../assets/Project Photos 1.png"
+import Brightvineimg2 from "../assets/Project Photos 1.png"
+import Brightvineimg3 from "../assets/Project Photos 1.png"
+import NBBimg1 from "../assets/Project Photos 2.png"
+import NBBimg2 from "../assets/Project Photos 2.png"
+import NBBimg3 from "../assets/Project Photos 2.png"
+import GMTRimg1 from "../assets/Project Photos 3.png"
+import GMTRimg2 from "../assets/Project Photos 3.png"
+import GMTRimg3 from "../assets/Project Photos 3.png"
 
 export const Projects = () => {
 
@@ -45,7 +51,17 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className="content">
                   <Tab.Pane eventKey="first">
-                      <img src={BrightvineBanner} alt="Website Designs for fin-tech company"/>
+                  <Container>
+                    <Row>
+                        <Col sm={12} md={4}>
+                        <img src={Brightvineimg1} alt="Website Designs for fin-tech company"/>
+                        </Col><Col sm={12} md={4}>
+                        <img src={Brightvineimg2} alt="Website Designs for fin-tech company"/>
+                        </Col><Col sm={12} md={4}>
+                        <img src={Brightvineimg3} alt="Website Designs for fin-tech company"/>
+                        </Col>
+                      </Row>
+                    </Container>
                       <div class="casestudy">
                         <h3>The Client</h3>
                         <p>Brightvine is a fin-tech startup with high ambitions to revolutionize the secondary mortgage marketing leveraging blockchain technology. Brightvine serves both individual investors and major financial institutions with their software solutions.</p>
@@ -72,7 +88,17 @@ export const Projects = () => {
                       </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <img src={NBBBanner} alt="Website Designs for Montana bison company"/>
+                    <Container>
+                    <Row>
+                        <Col sm={12} md={4}>
+                        <img src={NBBimg1} alt="Website Designs for Montana bison company"/>
+                        </Col><Col sm={12} md={4}>
+                        <img src={NBBimg2} alt="Website Designs for Montana bison company"/>
+                        </Col><Col sm={12} md={4}>
+                        <img src={NBBimg3} alt="Website Designs for Montana bison company"/>
+                        </Col>
+                      </Row>
+                    </Container>
                       <div class="casestudy">
                         <h3>The Client</h3>
                         <p>North Bridger Bison is a family-owned bison ranch located in the heart of Montana, USA, renowned for its commitment to animal welfare and community-oriented business practices. They offer high-quality bison meat in large quantities to a variety of customers, from health-conscious chefs to large families simply looking to save money on groceries.</p>
@@ -93,13 +119,25 @@ export const Projects = () => {
                         <li>High-fidelity mockups in AdobeXD walk through the basic user flow of all website pages. In this step, I paid special attention to the copy, buttons, tabs, and product listings. These mockups offered a detailed representation of the recommended website improvements.</li>
                         <h3>The Results</h3>
                         <p>I presented the redesigned website to North Bridger Bison, who proceeded to implement numerous changes based on my advice. This resulted in a revamped online platform that effectively showcased their products, addressed mobile optimization concerns, and provided a streamlined user experience for customers. North Bridger Bisons’ feedback was overwhelmingly positive and thankful.</p>
+                        <a href="https://xd.adobe.com/view/d129eebd-b90f-4685-9acf-85c3a1e74cb5-847a/"><button target="_blank">View the AdobeXD files</button></a>
+                        <a href="https://www.northbridgerbison.com/"><button target="_blank">View the live site</button></a>
                         <h3>What I Learned</h3>
                         <p><h5>User Research</h5><li>Prioritizing user research was crucial in crafting a design that resonated with the target audience. I found that the ideal client was much more diverse than I initially would have design for.</li>
                         <h5>Addressing Pain Points</h5><li>Emphasizing clear FAQs and visual aids helped cultivate trust with customers, mitigating friction points in the customer journey and bolstering confidence in the purchasing in such a large quantity.</li></p>
                       </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    <img src={GMTRBanner} alt="Website Designs for Christian Clothing Brand"/>
+                    <Container>
+                    <Row>
+                        <Col sm={12} md={4}>
+                        <img src={GMTRimg1} alt="Website Designs for Christian Clothing Brand"/>
+                        </Col><Col sm={12} md={4}>
+                        <img src={GMTRimg2} alt="Website Designs for Christian Clothing Brand"/>
+                        </Col><Col sm={12} md={4}>
+                        <img src={GMTRimg3} alt="Website Designs for Christian Clothing Brand"/>
+                        </Col>
+                      </Row>
+                    </Container>
                     <div class="casestudy">
                       <h3>The Client</h3>
                       <p>For this personal case study, I embarked on launching a Christian apparel business called "God Made the Rainbow." This business specializes in providing biblically inspired clothing and accessories that aim to convey counter-cultural biblical truths, particularly surrounding the symbolism of the rainbow.</p>

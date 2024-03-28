@@ -3,10 +3,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react';
 import logo from "../assets/name.png";
-import navIcon1 from "../assets/nav-icon1.svg";
+import navIcon1 from "../assets/linkedin.png";
 import emailIcon from "../assets/email.png";
 import gitHubIcon from "../assets/github.png";
-import navIcon3 from "../assets/nav-icon3.svg";
+import navIcon3 from "../assets/instagram.png";
 import Resume from "../assets/Lauren_Brackman_Resume.pdf";
 
 export const NavBar = () => {
