@@ -566,6 +566,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media all and (max-width:990px) {
   .banner img{
     max-width: 75%;
+    display: block;
+    margin: auto;
   }
 
   nav.navbar a.navbar-brand {
