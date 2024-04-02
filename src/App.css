@@ -524,6 +524,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 20px 20% 20px 20%;
 }
 
+.project .row{
+  display: flex;
+  align-items: center; /* Vertically center the items */
+}
+
+.black-border{
+  border: solid #121212 1px;
+}
+
 /************ About Css ************/
 .overlap{
   display: flex;

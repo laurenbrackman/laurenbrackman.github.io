@@ -13,6 +13,9 @@ import Moodboard from "../assets/gmtrmood.png";
 import Brand from "../assets/gmtr_brand.png";
 import OldGMTR1 from "../assets/gmtr_home1.png";
 import OldGMTR2 from  "../assets/gmtr_footer1.png";
+import GMTRSS1 from "../assets/Home Page 1.jpg"
+import GMTRSS2 from "../assets/Home Page 2.jpg"
+import GMTRSS3 from "../assets/Home Page 5.jpg"
 
 export const Projects = () => {
 
@@ -154,7 +157,7 @@ export const Projects = () => {
                       <h3>The Process</h3>
                       <h5>Brand Design Process</h5>
                       <li>The design process began with comprehensive research on competitors in the Christian apparel industry, followed by the development of AI-supported empathy maps and personas to understand the target audience's pain points and preferences. Mood boards were created based on this information. This is my favorite step to gather inspiration for the visual brand elements and ensure consistency in my final designs. The refined mood board informed the creation of a distinct verbal and visual brand identity, including the brand name, slogan, values, tone of voice, and brand story.</li>
-                      <Container>
+                      <Container class="projectphotos">
                         <Row>
                           <Col><img src={Moodboard} alt="mood board with rainbow apparel"></img></Col>
                           <Col><img src={Brand} alt="Brand for christian clothing company with logo suite"></img></Col>
@@ -163,15 +166,22 @@ export const Projects = () => {
                       
                       <h5>Web Design Process</h5>
                       <li>Initially, I jumped straight into prototypes of a final web design. However, I acknowledged that this leap bypassed essential steps such as wireframing and style strategy. This oversight resulted in a web design that diverged significantly from the bold and clean branding style established earlier, leaning instead towards a more muted and nature-inspired aesthetic that aligns with my personal style preferences. </li>
-                      <Container>
+                      <Container class="projectphotos">
                         <Row>
-                          <Col><img src ={OldGMTR1}alt="Home Page Design"></img></Col>
-                          <Col><img src ={OldGMTR2} alt="Footer of Home Page Design"></img></Col>
+                          <Col sm={12} md={6}><img src ={OldGMTR1}alt="Home Page Design"></img></Col>
+                          <Col sm={12} md={6}><img src ={OldGMTR2} alt="Footer of Home Page Design"></img></Col>
                         </Row>
                       </Container>
-                      <li>I made the decision to pause and reassess my approach, committing to creating a new design with a clear plan and strategy to guide its development. I returned to the drawing board, prioritizing the creation of wireframes to outline the website's structure and layout systematically. I developed a comprehensive style strategy that drew inspiration from the client's bold and clean branding to create two design directions to choose from. This experience served as a valuable lesson in the importance of prioritizing strategic planning over personal preferences.</li>
+                      <li>I made the decision to pause and reassess my approach, committing to creating a new design with a clear plan and strategy to guide its development. I returned to the drawing board, prioritizing the creation of wireframes to outline the website's structure and layout systematically. I developed a comprehensive style strategy that drew inspiration from the client's bold and clean branding to create three design directions to choose from. This experience served as a valuable lesson in the importance of prioritizing strategic planning over personal preferences.</li>
+                      <Container class="projectphotos">
+                        <Row>
+                          <Col sm={12} md={4}><img src ={GMTRSS1} alt="Home Page Design"></img></Col>
+                          <Col sm={12} md={4}><img src ={GMTRSS2} alt="Home Page Design"></img></Col>
+                          <Col sm={12} md={4}><img src ={GMTRSS3} alt="Home Page Design"></img></Col>
+                        </Row>
+                      </Container>
                       <h3>The Results</h3>
-                      <p>The final designs for "God Made the Rainbow" successfully captured the essence of the brand's mission and vision, providing customers with an engaging and personal online shopping experience. The website showcases the brand's products, promotes its mission and values, and encourages customer engagement through features such as email collection and influencer partnerships. The branding elements convey a sense of authenticity and purpose, establishing "God Made the Rainbow" as a trusted source for biblically inspired apparel.</p>
+                      <p>The final designs for "God Made the Rainbow" successfully captured the rainbow-focused essence of the brand's mission and vision, providing customers with a familiar yet personal online shopping experience. The website showcases the brand's products, promotes its mission and values, and encourages customer engagement through features such as email collection and influencer partnerships. The images are unique and specific to the brand, establishing "God Made the Rainbow" as a trusted source for biblically inspired apparel.</p>
                     </div>
                     </Tab.Pane>
                   </Tab.Content>
