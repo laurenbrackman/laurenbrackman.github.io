@@ -269,7 +269,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner p {
   color: #121212;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 90%;
@@ -556,6 +556,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 
+.padding-10{
+  padding:10px;
+}
+
 @media all and (max-width: 1020px) {
   .about {
     text-align: center; /* Center the text */
@@ -585,6 +589,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 50%
   }
 
+  nav.navbar {
+    background-color: white;
+    display: flex;
+    text-align: center;
+  }
+
+  nav.navbar .navbar-text{
+    display: flex;
+    flex-direction: column;
+  }
+
   .about p{
     display: block;
     margin:auto;
@@ -602,11 +617,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer {
   padding: 50px;
   background: white;
+  display: flex;
 }
 
-.footer img {
-  width: 50%;
+.footer .logo{
+  float: left;
+  margin-bottom: 20px;
+  max-width: 450px;
 }
+
 .footer p {
   font-weight: 400;
   font-size: 14px;

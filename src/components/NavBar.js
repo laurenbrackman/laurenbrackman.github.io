@@ -42,18 +42,21 @@ export const NavBar = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={()=>onUpdateActiveLink('skills')}>About</Nav.Link>
+            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link padding-10' : 'navbar-link padding-10'} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
+            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link padding-10' : 'navbar-link padding-10'} onClick={()=>onUpdateActiveLink('skills')}>About</Nav.Link>
           </Nav>
           <span className="navbar-text">
-            <div className="social-icon">
+            <div className="social-icon padding-10">
                 <a href="https://www.linkedin.com/in/laurenbrackman/"><img src={navIcon1} alt=""/></a>
                 <a href="https://github.com/laurenbrackman"><img src={gitHubIcon} alt=""/></a>
                 <a href="https://www.instagram.com/brackmanwebsites/"><img src={navIcon3} alt=""/></a>
                 <a href="mailto:lgbrackman@gmail.com"><img src={emailIcon} alt=""/></a>
             </div>
-            <a href={Resume}><button className="vvd" target="_blank"><span>View My Resume</span></button></a>
-            </span>
+            <div className="padding-10"> 
+              <a href={Resume}><button className="vvd" target="_blank"><span>View My Resume</span></button></a>
+            </div>
+
+          </span>
         </Navbar.Collapse>
       </Container>
     </Navbar>
