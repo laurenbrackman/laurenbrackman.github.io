@@ -355,7 +355,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .project h5{
   margin-top: 20px;
-  margin-left: 20px;
   font-family: 'Source Code Pro';
 }
 
@@ -373,6 +372,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
+  margin-left: 20px;
 }
 
 .project img{
@@ -384,8 +384,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid #121212;
   padding: 18px 34px;
   font-size: 18px;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  margin: 20px;
+  margin-top: 0px;
   font-weight: 300;
   letter-spacing: 0.8px;
   padding: 8px 10px;

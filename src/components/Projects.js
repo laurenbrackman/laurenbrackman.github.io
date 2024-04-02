@@ -87,6 +87,7 @@ export const Projects = () => {
                         <li>In collaboration with the client, I made many minor adjustments to refine the final website. This involved requesting feedback and hosting screen-sharing sessions to review changes.</li>
                         <h3>The Results</h3>
                         <p>Over the past two years, Brightvine has consistently relied on the website I developed, which has grown alongside their business as they introduce new software solutions and expand their market. Thanks to the component system I implemented, they seamlessly manage updates and expansions, ensuring the website evolves in stride with their growing company.</p>
+                        <a href="https://www.brightvine.com/"><button target="_blank">View the live site</button></a>
                         <h3>What I Learned</h3>
                         <p><h5>Webflow University</h5></p>
                         <li>This five-hour course played a pivotal role in my development process by providing comprehensive tutorials and resources for Webflow best practices. This knowledge empowered me to implement complex design elements and interactions with confidence.</li>
@@ -182,6 +183,7 @@ export const Projects = () => {
                       </Container>
                       <h3>The Results</h3>
                       <p>The final designs for "God Made the Rainbow" successfully captured the rainbow-focused essence of the brand's mission and vision, providing customers with a familiar yet personal online shopping experience. The website showcases the brand's products, promotes its mission and values, and encourages customer engagement through features such as email collection and influencer partnerships. The images are unique and specific to the brand, establishing "God Made the Rainbow" as a trusted source for biblically inspired apparel.</p>
+                      <a href="#"><button target="_blank">View the live site</button></a>
                     </div>
                     </Tab.Pane>
                   </Tab.Content>
