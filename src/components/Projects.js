@@ -101,9 +101,9 @@ export const Projects = () => {
                         <Col sm={12} md={4}>
                         <img src={NBBimg1} alt="Website Designs for Montana bison company"/>
                         </Col><Col sm={12} md={4}>
-                        <img src={NBBimg2} alt="Website Designs for Montana bison company"/>
-                        </Col><Col sm={12} md={4}>
                         <img src={NBBimg3} alt="Website Designs for Montana bison company"/>
+                        </Col><Col sm={12} md={4}>
+                        <img src={NBBimg2} alt="Website Designs for Montana bison company"/>
                         </Col>
                       </Row>
                     </Container>
