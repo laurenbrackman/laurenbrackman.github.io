@@ -183,7 +183,7 @@ export const Projects = () => {
                       </Container>
                       <h3>The Results</h3>
                       <p>The final designs for "God Made the Rainbow" successfully captured the rainbow-focused essence of the brand's mission and vision, providing customers with a familiar yet personal online shopping experience. The website showcases the brand's products, promotes its mission and values, and encourages customer engagement through features such as email collection and influencer partnerships. The images are unique and specific to the brand, establishing "God Made the Rainbow" as a trusted source for biblically inspired apparel.</p>
-                      <a href="#"><button target="_blank">View the live site</button></a>
+                      <a href="https://www.godmadetherainbow.com"><button target="_blank">View the live site</button></a>
                     </div>
                     </Tab.Pane>
                   </Tab.Content>
