@@ -1,5 +1,5 @@
 # Web Design Portfolio Website
 
-visit www.laurenbrackman.com
+Visit www.laurenbrackman.com
 
-Created with React, Bootstrap, CSS, and GithubPages
+Created with React, Bootstrap, CSS, GithubPages, and Cloudflare
