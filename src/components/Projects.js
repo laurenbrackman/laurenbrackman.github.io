@@ -19,21 +19,6 @@ import GMTRSS3 from "../assets/Home Page 5.jpg"
 
 export const Projects = () => {
 
-  const projects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-    },
-  ];
-
   return (
     <section className="project" id="projects">
       <Container>

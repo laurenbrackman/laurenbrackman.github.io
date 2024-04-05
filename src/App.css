@@ -425,6 +425,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
+
+@media all and (max-width:750px) {
+  .project .nav.nav-pills .nav-link {
+    font-size: 14px;
+  }
+}
+
 .project .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
