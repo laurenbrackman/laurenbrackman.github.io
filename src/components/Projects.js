@@ -6,9 +6,9 @@ import Brightvineimg3 from "../assets/bv3.png"
 import NBBimg1 from "../assets/nbb1.png"
 import NBBimg2 from "../assets/nbb2.png"
 import NBBimg3 from "../assets/nbb3.png"
-import GMTRimg1 from "../assets/gmtr-f1.png"
-import GMTRimg2 from "../assets/gmtr-f2.png"
-import GMTRimg3 from "../assets/gmtr-f3.png"
+import GMTRimg1 from "../assets/GMTR-F2.png"
+import GMTRimg2 from "../assets/GMTR-F1.png"
+import GMTRimg3 from "../assets/GMTR-F3.png"
 import Moodboard from "../assets/gmtrmood.png";
 import Brand from "../assets/gmtr_brand.png";
 import OldGMTR1 from "../assets/gmtr_home1.png";
