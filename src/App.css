@@ -592,19 +592,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   nav.navbar a.navbar-brand {
     display: block;
-    margin: auto;
-    width: 50%
+    min-width: 45%;
+    padding: 0px 20px;
   }
 
   nav.navbar {
     background-color: white;
     display: flex;
-    text-align: center;
   }
 
   nav.navbar .navbar-text{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+  }
+
+  
+  nav.navbar .navbar-nav .nav-link.navbar-link{
+    padding: 5px 25px;
+  }
+
+  span.navbar-text {
+    align-items: flex-start;
   }
 
   .about p{
