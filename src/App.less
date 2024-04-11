@@ -1,46 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Colors */
+/* Variables */
 @dark-blue:#3A76E1;
 @blue: #729CE2;
 @cream: #FAF7F3;
 @black: #121212;
 @gold: #F8AE07;
+@light-weight: 200;
+@medium-weight: 400;
+@heavy-weight: 700;
 
 /*Mixins*/
-body{
-  color: @black;
-  background-color: @cream;
-}
 
-/* Default CSS */
+/*Default LESS*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
-  scroll-behavior: smooth;
-  scroll-padding: 75px;
-}
-
 body{
-  font-weight: 400;
-  overflow-x: hidden;
-  position: relative;
-  background: #bacedf !important;
-  color: #121212 !important;
+  color: @black;
+  background-color: @cream;
+  font-weight: @medium-weight;
   font-family: "Montserrat", sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6{
-  margin:0;
-  padding: 0;
-  line-height: normal;
-  color: @dark-blue;
+  color: @dark-blue !important;
 }
 
+h1, h2{
+  font-weight: @heavy-weight;
+}
+
+h3,h4,h5{
+  font-weight: @medium-weight;
+}
+
+/* Default CSS */
+body{
+  overflow-x: hidden;
+  position: relative;
+}
 
 p, a, li, button, ul {
   margin: 0;
