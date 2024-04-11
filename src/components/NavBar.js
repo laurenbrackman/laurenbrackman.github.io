@@ -53,7 +53,7 @@ export const NavBar = () => {
                 <a href="mailto:lgbrackman@gmail.com"><img src={emailIcon} alt=""/></a>
             </div>
             <div className="padding-10"> 
-              <a href={Resume}><button className="vvd" target="_blank"><span>View My Resume</span></button></a>
+              <a href={Resume}><button className="resume" target="_blank"><span>View My Resume</span></button></a>
             </div>
           </span>
         </Navbar.Collapse>

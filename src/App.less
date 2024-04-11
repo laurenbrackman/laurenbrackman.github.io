@@ -16,16 +16,16 @@
 /*Mixins*/
 .section-theme(@background-color){
   background-color: @background-color;
-  color:@gold;
+  color:@black;
 
-  & when (lightness(@background-color) >= 80%){
+  & when (@background-color=@cream){
     color: @dark-blue;
   }
   
-  & when (lightness(@background-color) < 80%){
+  & when (@background-color=@dark-blue){
     color: @cream;
   }
-
+  
 } 
 
 /*Default LESS*/
@@ -72,9 +72,17 @@ img {
   height: auto;
 }
 
-button {
-  border: 0;
+button{
+  border: solid 1px @black;
   background-color: transparent;
+  font-weight: @heavy-weight;
+  padding: 18px 34px;
+
+  &:hover{
+    border: solid 1px @gold;
+    .section-theme(@gold);
+    transition:  0.32s ease-in-out;
+  }
 }
 
 .project{
@@ -96,8 +104,6 @@ button {
 	}
 }
 
-/************ Navbar Css ************/
-
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -105,30 +111,33 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
-}
-nav.navbar.scrolled {
-  padding: 0px 0;
-}
 
-nav.navbar a.navbar-brand {
+  &.scrolled {
+    padding: 0px 0;
+  }
+
+  a.navbar-brand {
     width: 15%;
-}
-nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
+  }
 
-  letter-spacing: 0.8px;
-  padding: 0 25px;
-  font-size: 18px;
-  opacity: 0.75;
+  .navbar-nav .nav-link.navbar-link {
+    font-weight: @medium-weight;
+    letter-spacing: 0.8px;
+    padding: 0 25px;
+    font-size: 18px;
+    opacity: 0.75;
+
+    &:hover, &.active{
+      opacity: 1;
+    }
+  }
 }
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    opacity: 1;
-}
+
 span.navbar-text {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
 .social-icon {
     display: inline-block;
     margin-left: 14px;
@@ -163,18 +172,11 @@ span.navbar-text {
 }
 
 .navbar-text button {
-  font-weight: 700;
-  border: 1px solid @black;
-  padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
 	position: relative;
-	background-color: transparent;
-	transition: 0.3s ease-in-out;
 }
-.navbar-text button span {
-  z-index: 1;
-}
+
 .navbar-text button::before {
   content: "";
   width: 0%;
@@ -185,20 +187,14 @@ span.navbar-text {
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
-.navbar-text button:hover {
-  border: 1px solid @cream;
-}
+
 .navbar-text button:hover::before {
 	content: "";
 	width: 100%;
 	height: 100%;
 	position: absolute;
 }
-nav.navbar .navbar-toggler:active,
-nav.navbar .navbar-toggler:focus {
-	outline: none;
-    box-shadow: none;
-}
+
 nav.navbar .navbar-toggler-icon {
   width: 24px;
   height: 17px;
@@ -331,7 +327,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project button:hover{
-  background: @gradient;
+  background: @gold;
   transition: 0.3s ease-in-out;
 }
 
@@ -376,7 +372,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-link.active::before {
   width: 100% !important;
-  background: @gradient;
+  background: @gold;
   opacity: 0.85;
 }
 
@@ -407,7 +403,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: @gradient;
+  background: @gold;
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -498,7 +494,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 50px;
-  background: white;
   display: flex;
   .logo{
     float: left;
