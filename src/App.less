@@ -18,11 +18,11 @@
   background-color: @background-color;
   color:@gold;
 
-  & when (lightness(@background-color) >= 50%){
+  & when (lightness(@background-color) >= 80%){
     color: @dark-blue;
   }
   
-  & when (lightness(@background-color) < 50%){
+  & when (lightness(@background-color) < 80%){
     color: @cream;
   }
 
@@ -75,6 +75,18 @@ img {
 button {
   border: 0;
   background-color: transparent;
+}
+
+.project{
+  .section-theme(@dark-blue)
+}
+
+.about{
+  .section-theme(@cream)
+}
+
+.footer{
+  .section-theme(@gold)
 }
 
 @media (min-width:1700px) {
@@ -468,10 +480,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about {
   width: 100%;
   margin-top:-150px;
-  background: @gold;
-  background: @gradient;
   padding: 225px 0 60px 0;
 }
+
 .about img {
   width: 75%;
 }
@@ -533,7 +544,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   nav.navbar {
-    background-color: @cream;;
     display: flex;
   }
 
