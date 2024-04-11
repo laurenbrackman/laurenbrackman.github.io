@@ -14,8 +14,9 @@
 @heavy-weight: 700;
 
 /*Mixins*/
-.font-color(@color){
-  @lightness: lightness(@color);
+.section-theme(@background-color){
+  background-color: @background-color;
+  @lightness: lightness(@background-color);
 
   .is-light() when (lightness >= 50%){
     color: @dark-blue;
@@ -35,11 +36,11 @@
 }
 
 body{
-  color: @dark-blue !important;
   font-weight: @medium-weight;
   font-family: "Montserrat", sans-serif !important;
   overflow-x: hidden;
   position: relative;
+  .section-theme(@cream);
 }
 
 h1, h2{
@@ -173,7 +174,6 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: @cream;
   border: 1px solid @cream;
 }
 .navbar-text button:hover::before {
@@ -205,7 +205,6 @@ nav.navbar .navbar-toggler-icon:before {
 	width: 24px;
 	position: absolute;
 	height: 2px;
-	background-color: @cream;
 	top: 0;
 	left: 0;
 	content: '';
@@ -217,12 +216,10 @@ nav.navbar .navbar-toggler-icon:after {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	transform: rotate(45deg);
-	background-color: @cream;
 	height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 	transform: translateY(8px) rotate(-45deg);
-	background-color: @cream;
 	height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
@@ -236,16 +233,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background:@cream;
 }
 
-.banner .tagline {
-  font-weight: 300;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: @gradient;
-  border: 1px solid @black;
-  font-size: 16px;
-  margin-bottom: 20px;
-  display: inline-block;
-}
 .banner h1 {
   font-size: 60px;
   font-weight: 700;
@@ -353,7 +340,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
-  color: @black;
   border-radius: 0;
   padding: 17px 0;
   width: 100%;
@@ -483,10 +469,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
   margin-top:-150px;
   background: @gold;
-  color: @cream;
   background: @gradient;
-  pad
-  ding: 225px 0 60px 0;
+  padding: 225px 0 60px 0;
 }
 .about img {
   width: 75%;
@@ -512,7 +496,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   p {
     font-size: 14px;
-    color: black;
     letter-spacing: 0.5px;
     margin-top: 20px;
   }
