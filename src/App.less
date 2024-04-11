@@ -16,13 +16,13 @@
 /*Mixins*/
 .section-theme(@background-color){
   background-color: @background-color;
-  @lightness: lightness(@background-color);
+  color:@gold;
 
-  .is-light() when (lightness >= 50%){
+  & when (lightness(@background-color) >= 50%){
     color: @dark-blue;
   }
   
-  .is-dark() when (lightness < 50%){
+  & when (lightness(@background-color) < 50%){
     color: @cream;
   }
 
