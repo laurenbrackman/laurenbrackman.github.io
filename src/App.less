@@ -14,6 +14,18 @@
 @heavy-weight: 700;
 
 /*Mixins*/
+.font-color(@color){
+  @lightness: lightness(@color);
+
+  .is-light() when (lightness >= 50%){
+    color: @dark-blue;
+  }
+  
+  .is-dark() when (lightness < 50%){
+    color: @cream;
+  }
+
+} 
 
 /*Default LESS*/
 * {
@@ -24,7 +36,6 @@
 
 body{
   color: @dark-blue !important;
-  background-color: @cream;
   font-weight: @medium-weight;
   font-family: "Montserrat", sans-serif !important;
   overflow-x: hidden;
@@ -539,7 +550,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   nav.navbar {
-    background-color: @cream;
+    background-color: @cream;;
     display: flex;
   }
 
