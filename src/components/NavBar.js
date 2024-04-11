@@ -55,7 +55,6 @@ export const NavBar = () => {
             <div className="padding-10"> 
               <a href={Resume}><button className="vvd" target="_blank"><span>View My Resume</span></button></a>
             </div>
-
           </span>
         </Navbar.Collapse>
       </Container>

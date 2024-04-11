@@ -1,5 +1,4 @@
 import { Container, Row, Col, Tab, Nav} from "react-bootstrap";
-import TrackVisibility from 'react-on-screen';
 import Brightvineimg1 from "../assets/bv1.png"
 import Brightvineimg2 from "../assets/bv2.png"
 import Brightvineimg3 from "../assets/bv3.png"
@@ -24,9 +23,6 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
                 <p class="sampling">A sampling of my favorite case studies!</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -173,8 +169,6 @@ export const Projects = () => {
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
-              </div>}
-            </TrackVisibility>
           </Col>
         </Row>
       </Container>
