@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Colors */
+@dark-blue:#3A76E1;
+@blue: #729CE2;
+@cream: #FAF7F3;
+@black: #121212;
+@gold: #F8AE07;
+
+/*Mixins*/
+body{
+  color: @black;
+  background-color: @cream;
+}
 
 /* Default CSS */
 * {
@@ -17,13 +31,14 @@ body{
   position: relative;
   background: #bacedf !important;
   color: #121212 !important;
-  font-family: sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6{
   margin:0;
   padding: 0;
   line-height: normal;
+  color: @dark-blue;
 }
 
 
