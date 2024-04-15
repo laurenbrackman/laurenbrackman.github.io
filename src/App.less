@@ -317,7 +317,7 @@ span.navbar-text {
   position: relative;
   .section-theme(@dark-blue);
   
-  h2, .sampling{
+  h2, .sampling, .container{
     text-align: center;
   }
 
@@ -395,6 +395,26 @@ span.navbar-text {
       }
     }
   }
+
+  button{
+    color: @cream;
+    background-color: @gold;
+    border: none;
+    margin-top: 20px;
+
+    &:hover{
+      background-color: @cream;
+      color: @dark-blue;
+      transition: 0.3s ease-in-out;
+    }
+  }
+
+  img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+
 }
 
 .background-image-right {
@@ -406,19 +426,8 @@ span.navbar-text {
   z-index: -4;
 }
 
-.content {
-  border-radius: 95px;
-  overflow: hidden;
-  padding: 25px;
-}
-
 .casestudy{
   margin: 20px 20% 20px 20%;
-}
-
-.project .row{
-  display: flex;
-  align-items: center; /* Vertically center the items */
 }
 
 .black-border{
