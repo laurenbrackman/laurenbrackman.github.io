@@ -43,7 +43,7 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link padding-10' : 'navbar-link padding-10'} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link padding-10' : 'navbar-link padding-10'} onClick={()=>onUpdateActiveLink('skills')}>About</Nav.Link>
+            <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link padding-10' : 'navbar-link padding-10'} onClick={()=>onUpdateActiveLink('about')}>About</Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon padding-10">

@@ -3,7 +3,7 @@ import AboutMe from "../assets/profilephoto.jpeg";
 
 export const About = () => {
   return (
-    <section className="about" id="connect">
+    <section className="about" id="about">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
