@@ -105,6 +105,8 @@ button{
     border: solid 3px @gold;
     background-color: @cream;
     margin: 10px;
+    font-weight: @heavy-weight;
+    z-index: 2;
 }
 
 .goldbox2{
@@ -112,6 +114,7 @@ button{
   border: solid 3px @gold;
   color: @cream;
   margin: 10px;
+  font-weight: @heavy-weight;
 }
 
 .bluebox{
@@ -120,6 +123,7 @@ button{
     color: @cream;
     margin: 10px;
     min-width: 175px;
+    font-weight: @heavy-weight;
 }
 
 .line2{
@@ -131,12 +135,25 @@ button{
 
 .line3{
   margin-top: 2em;
+  .goldbox{
+    position: relative;
+    top: 20px;
+  }
 }
 
 .line4{
   .goldbox2, .bluebox{
     position: relative;
-    top: 0.5em;
+    left: 10%;
+  }
+  .goldbox2{
+    display: inline-block;
+    transform: rotate(-5deg);
+  }
+  .bluebox{
+    display: inline-block;
+    transform: rotate(5deg);
+    top: -10px;
   }
 }
 
