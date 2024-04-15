@@ -6,7 +6,6 @@ import GMTROverlay from "./GMTROverlay";
 const ProjectOverlay = ({activeProject}) => {
   let OverlayComponent;
 
-  // Determine which overlay component to render based on the active project
   switch (activeProject) {
     case "Brightvine":
       OverlayComponent = BrightvineOverlay;
@@ -21,7 +20,6 @@ const ProjectOverlay = ({activeProject}) => {
       OverlayComponent = null;
   }
 
-  // Render the selected overlay component
   return OverlayComponent ? <OverlayComponent/> : null;
 };
 

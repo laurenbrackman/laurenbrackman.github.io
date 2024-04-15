@@ -17,6 +17,12 @@ export const Projects = () => {
     document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
   };
 
+  const handleTabSelect = (eventKey) => {
+    setShowOverlay(false);
+    setActiveProject(""); 
+    setActiveTab(eventKey);
+  };
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -24,7 +30,7 @@ export const Projects = () => {
           <Col size={12}>
                 <h2>Projects</h2>
                 <p className="sampling">A sampling of my favorite case studies!</p>
-                <Tab.Container id="projects-tabs" activeKey={activeTab} onSelect={(eventKey) => setActiveTab(eventKey)}>
+                <Tab.Container id="projects-tabs" activeKey={activeTab} onSelect={handleTabSelect}>
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
                   <Nav.Link eventKey="first">Brightvine</Nav.Link>

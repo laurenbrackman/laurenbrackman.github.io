@@ -316,14 +316,13 @@ span.navbar-text {
   padding: 50px 0;
   position: relative;
   .section-theme(@dark-blue);
-  
+
   h2, .sampling, .container{
     text-align: center;
   }
 
   li, p, h5{
     list-style-type: none;
-    margin-left: 20px;
     font-size: 16px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -400,7 +399,7 @@ span.navbar-text {
     color: @cream;
     background-color: @gold;
     border: none;
-    margin: 20px 0px;
+    margin: 60px 0px 20px 0px;
 
     &:hover{
       background-color: @cream;
@@ -417,9 +416,23 @@ span.navbar-text {
 
 }
 
-.overlay{
-  .section-theme(@dark-blue);
-  position: sticky;
+.overlay {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .overlay-content {
+    .section-theme(@cream);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    overflow: auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 90%;
+  }
+  button{
+    margin: 0 0 20px 0;
+  }
 }
 
 .background-image-right {
