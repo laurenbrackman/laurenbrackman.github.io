@@ -101,29 +101,63 @@ button{
   text-decoration-color: @gold;
 }
 
+@keyframes dropRotate1 {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(10deg) ; 
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(inherit);
+  }
+}
+
+@keyframes dropRotate2 {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(-15deg) ; 
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(inherit);
+  }
+}
+
+.goldbox, .goldbox2, .bluebox{
+  opacity: 0;
+  margin: 10px;
+  font-weight: @heavy-weight;
+}
+
 .goldbox{
     border: solid 3px @gold;
     background-color: @cream;
-    margin: 10px;
-    font-weight: @heavy-weight;
     z-index: 2;
+    animation: dropRotate1 2s ease forwards;
 }
 
 .goldbox2{
   background-color: @gold;
   border: solid 3px @gold;
   color: @cream;
-  margin: 10px;
-  font-weight: @heavy-weight;
+  animation: dropRotate1 2s ease forwards;
+  animation-delay: 0.5s;
 }
 
 .bluebox{
     background-color: @dark-blue;
     border: solid 3px @dark-blue;
     color: @cream;
-    margin: 10px;
     min-width: 175px;
-    font-weight: @heavy-weight;
+    animation: dropRotate2 2s ease forwards;
 }
 
 .line2{
