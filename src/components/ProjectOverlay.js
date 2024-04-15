@@ -1,38 +1,9 @@
-import Brightvineimg1 from "../assets/bv1.png"
-import Brightvineimg2 from "../assets/bv2.png"
-import Brightvineimg3 from "../assets/bv3.png"
-import NBBimg1 from "../assets/nbb1.png"
-import NBBimg2 from "../assets/nbb2.png"
-import NBBimg3 from "../assets/nbb3.png"
-import GMTRimg1 from "../assets/GMTR-F3.png"
-import GMTRimg2 from "../assets/GMTR-F1.png"
-import GMTRimg3 from "../assets/GMTR-F2.png"
-import Moodboard from "../assets/gmtrmood.png";
-import Brand from "../assets/gmtr_brand.png";
-import OldGMTR1 from "../assets/gmtr_home1.png";
-import OldGMTR2 from  "../assets/gmtr_footer1.png";
-import GMTRSS1 from "../assets/Home Page 1.jpg"
-import GMTRSS2 from "../assets/Home Page 2.jpg"
-import GMTRSS3 from "../assets/Home Page 5.jpg"
+import React from "react";
 
-export const ProjectOverlay = () => {
+const ProjectOverlay = ({ onClose }) => {
 
     return (
-    <section>
-        <Container>
-            <Row>
-                <Col sm={12} md={4}>
-                    <img src={Brightvineimg1} alt="Website Designs for fin-tech company"/>
-                </Col>
-                <Col sm={12} md={4}>
-                    <img src={Brightvineimg2} alt="Website Designs for fin-tech company"/>
-                </Col>
-                <Col sm={12} md={4}>
-                    <img src={Brightvineimg3} alt="Website Designs for fin-tech company"/>
-                </Col>
-             </Row>
-        </Container>
-
+    <section className="overlay">
         <div className="casestudy">
             <h3>The Client</h3>
             <p>Brightvine is a fin-tech startup with high ambitions to revolutionize the secondary mortgage marketing leveraging blockchain technology. Brightvine serves both individual investors and major financial institutions with their software solutions.</p>
@@ -61,3 +32,5 @@ export const ProjectOverlay = () => {
     </section> 
     )
 }
+
+export default ProjectOverlay;
