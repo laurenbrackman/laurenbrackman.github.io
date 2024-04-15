@@ -96,14 +96,6 @@ button{
   }
 }
 
-.about{
-  .section-theme(@cream)
-}
-
-.footer{
-  .section-theme(@gold)
-}
-
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
@@ -348,6 +340,8 @@ span.navbar-text {
   width: 100%;
   margin-top:-150px;
   padding: 225px 0 60px 0;
+  .section-theme(@cream);
+  color: @black;
 }
 
 .about img {
@@ -362,14 +356,30 @@ span.navbar-text {
   padding:10px;
 }
 
-/************ Footer Css ************/
+/************ Work With Me ************/
+.workwithme{
+  height: fit-content;
+  background-image: linear-gradient(to bottom, @cream 50%, @gold 50%);
+  .content{
+    .section-theme(@cream);
+    text-align: center;
+    margin: 0px 60px 0px 60px;
+    padding: 40px;
+    border: 10px solid @gold;
+    border-radius: 45px;
+    color: @black;
+  }
+}
+
+/************ Footer ************/
 .footer {
+  .section-theme(@gold);
   padding: 50px;
   display: flex;
   .logo{
     float: left;
     margin-bottom: 20px;
-    max-width: 450px;
+    max-width: 250px;
   }
   p {
     font-size: 14px;

@@ -4,6 +4,7 @@ import { NavBar } from './components/NavBar';
 import { Banner } from "./components/Banner";
 import { Projects } from "./components/Projects";
 import { About } from "./components/About";
+import { WorkWithMe } from './components/WorkWithMe';
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Projects />
       <About />
+      <WorkWithMe />
       <Footer />
     </div>
   );
