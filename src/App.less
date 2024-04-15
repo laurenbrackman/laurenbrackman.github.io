@@ -96,6 +96,50 @@ button{
   }
 }
 
+.underline{
+  text-decoration: underline;
+  text-decoration-color: @gold;
+}
+
+.goldbox{
+    border: solid 3px @gold;
+    background-color: @cream;
+    margin: 10px;
+}
+
+.goldbox2{
+  background-color: @gold;
+  border: solid 3px @gold;
+  color: @cream;
+  margin: 10px;
+}
+
+.bluebox{
+    background-color: @dark-blue;
+    border: solid 3px @dark-blue;
+    color: @cream;
+    margin: 10px;
+    min-width: 175px;
+}
+
+.line2{
+  .bluebox{
+    position: absolute;
+    transform: translateX(-50%) translateY(50%);
+  }
+}
+
+.line3{
+  margin-top: 2em;
+}
+
+.line4{
+  .goldbox2, .bluebox{
+    position: relative;
+    top: 0.5em;
+  }
+}
+
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
@@ -347,10 +391,6 @@ span.navbar-text {
 .about img {
   width: 75%;
 }
-.about h2 {
-	font-size: 45px;
-	font-weight: 700;
-}
 
 .padding-10{
   padding:10px;
@@ -395,7 +435,7 @@ span.navbar-text {
     text-align: center; /* Center the text */
   }
   
-  .about h2 {
+  h2 {
     margin-top: 1rem;
     font-size: 35px;
   }

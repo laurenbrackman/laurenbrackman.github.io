@@ -10,9 +10,10 @@ export const Banner = () => {
              <img src={headerImg} alt="Headshot of Lauren Brackman"/>
           </Col>
           <Col xs={12} md={6} xl={7}>
-                <h1>{`Hi, I'm Lauren`}</h1>
-                <h3>I'm a Web Designer and Developer.</h3>
-                <h3>I love working with churches, small businesses, and startups.</h3>
+                <h1 className="line1">Hi, I'm <span className="underline">Lauren</span>.</h1>
+                <h3 className="line2">I'm a <span className="goldbox">Web Designer</span> <span className="bluebox">& Developer</span></h3>
+                <h3 className="line3">Who works with <span  className="goldbox">Churches</span></h3>
+                <h3 className="line4"><span  className="bluebox">Small Businesses</span><span className="goldbox2">Startups</span></h3>
           </Col>
         </Row>
       </Container>
