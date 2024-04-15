@@ -525,10 +525,21 @@ span.navbar-text {
 }
 
 @media all and (max-width:990px) {
-  .banner img{
+  .banner{
+    img{
     max-width: 75%;
     display: block;
     margin: auto;
+    }
+    .line4{
+      .bluebox{
+        margin-top: 30px;
+      }
+      .goldbox2{
+        top: -30px;
+        left: 200px;
+      }
+   }
   }
 
   nav.navbar a.navbar-brand {
@@ -585,9 +596,26 @@ span.navbar-text {
       position: relative;
       top: 0;
       left: 0;
-      margin: 0;
+      margin: auto;
       padding: 0;
       transform: none;
     }
+
+    .line2, .line3{
+      margin: 20px 0 0 0;
+      span{
+        display: block;
+        width: 50%;
+      }
+    }
+
+    .line4 span{
+      display: block;
+      width: 50%;
+      top:0;
+      left:0;
+      margin: auto;
+    }
+
   }
 }
