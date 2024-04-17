@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Tab, Nav} from "react-bootstrap";
-import Brightvineimg1 from "../assets/bv1.png"
-import NBBimg1 from "../assets/nbb1.png"
-import GMTRimg1 from "../assets/GMTR-F3.png"
+import Brightvineimg1 from "../assets/banner (1).png"
+import NBBimg1 from "../assets/banner (2).png"
+import GMTRimg1 from "../assets/banner (3).png"
 import ProjectOverlay from "./ProjectOverlay";
 
 export const Projects = () => {
