@@ -11,7 +11,7 @@ export const About = () => {
           </Col>
           <Col size={12} md={6}>
                 <h2>Get To Know Me</h2>
-                <p>After graduating with a degree in computer science from Montana State University, I ventured into graphic design as a full-time church media manager. At the intersection of coding and design, I love helping small businesses and Christian ministries develop effective websites. When not working on websites, I enjoy reading in coffee shops, jogging and rock climbing with my husband, and sewing for my handmade crafting business.</p>
+                <p>After graduating with a degree in computer science from Montana State University, I ventured into graphic design as a full-time church media manager. At the intersection of coding and design, I love helping people develop clean and effective websites. Need custom code or branding photography? My skills and interests cover a wide range of topics to best support your website's needs! When not working on websites, I enjoy reading in coffee shops, jogging and rock climbing with my husband, and sewing for my handmade crafting business.</p>
           </Col>
         </Row>
       </Container>
