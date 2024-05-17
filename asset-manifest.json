@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf759c10.css",
-    "main.js": "/static/js/main.925c160f.js",
+    "main.css": "/static/css/main.fd22e128.css",
+    "main.js": "/static/js/main.a69ae071.js",
     "static/js/453.534db5b8.chunk.js": "/static/js/453.534db5b8.chunk.js",
     "static/media/Home Page 5.jpg": "/static/media/Home Page 5.425b8b52f7269a379e86.jpg",
     "static/media/Home Page 1.jpg": "/static/media/Home Page 1.871e4fcaf4bb2e597694.jpg",
@@ -21,12 +21,12 @@
     "static/media/Lauren_Brackman_Resume.pdf": "/static/media/Lauren_Brackman_Resume.cd13c562a27fa4d84b3b.pdf",
     "static/media/name.png": "/static/media/name.f4b1a186593c091629bc.png",
     "index.html": "/index.html",
-    "main.bf759c10.css.map": "/static/css/main.bf759c10.css.map",
-    "main.925c160f.js.map": "/static/js/main.925c160f.js.map",
+    "main.fd22e128.css.map": "/static/css/main.fd22e128.css.map",
+    "main.a69ae071.js.map": "/static/js/main.a69ae071.js.map",
     "453.534db5b8.chunk.js.map": "/static/js/453.534db5b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf759c10.css",
-    "static/js/main.925c160f.js"
+    "static/css/main.fd22e128.css",
+    "static/js/main.a69ae071.js"
   ]
 }
