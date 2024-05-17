@@ -13,7 +13,7 @@ export const Banner = () => {
                 <h1 className="line1">Hi, I'm <span className="underline">Lauren</span>.</h1>
                 <h3 className="line2">I'm a <span className="goldbox">Web Designer</span> <span className="bluebox">& Developer</span></h3>
                 <h3 className="line3">Who works with <span  className="goldbox">Churches</span></h3>
-                <h3 className="line4"><span  className="bluebox">Small Businesses</span><span className="goldbox2">Freelancers</span></h3>
+                <h3 className="line4"><span  className="bluebox">Small Businesses</span><span className="goldbox2">Ministries</span></h3>
           </Col>
         </Row>
       </Container>
