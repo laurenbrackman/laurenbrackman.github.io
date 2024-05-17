@@ -18,7 +18,7 @@ const BrightvineOverlay = () => {
         <p><h5>Styling and Animation</h5></p>
         <li>I then created a comprehensive style guide within Webflow with intelligent naming for typography, color, and icon classes and applied this styling to the site. Alongside this, I integrated animations, including a parallax scrolling effect, to the site, replicating the visual aesthetics of the original design while maintaining responsiveness. With client approval, I implemented subtle on-scroll and on-page-change animations for an enhanced user experience.</li>
         <p><h5>Quality Assurance</h5></p>
-        <li>In collaboration with the client, I made many minor adjustments to refine the final website. This involved requesting feedback and hosting screen-sharing sessions to review changes.</li>
+        <li>In collaboration with the client, I made many adjustments to refine the final website. This involved requesting feedback and hosting screen-sharing sessions to review changes.</li>
         <h3>The Results</h3>
         <p>Over the past two years, Brightvine has consistently relied on the website I developed, which has grown alongside their business as they introduce new software solutions and expand their market. Thanks to the component system I implemented, they seamlessly manage updates and expansions, ensuring the website evolves in stride with their growing company.</p>
         <a href="https://www.brightvine.com/"><button target="_blank">View the live site</button></a>
