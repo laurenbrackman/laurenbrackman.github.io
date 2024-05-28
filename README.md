@@ -1,5 +1,4 @@
 # Web Design Portfolio Website
 
-Visit www.laurenbrackman.com
-
-Created with React, Bootstrap, CSS, GithubPages, and Cloudflare
+Welcome to the backend of my porfolio website! This site was custome-coded using React, Bootstrap, CSS, GithubPages, and Cloudflare.
+Visit www.laurenbrackman.com to check out the deployed site!
