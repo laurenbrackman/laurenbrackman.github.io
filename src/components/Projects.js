@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Tab, Nav} from "react-bootstrap";
-import Brightvineimg1 from "../assets/banner (1).png";
+import Elevate1 from "../assets/Elevate1.png";
 import NBBimg1 from "../assets/banner (2).png";
 import GMTRimg1 from "../assets/banner (3).png";
-import Brightvineimg2 from "../assets/bv1.png"; // Change to the appropriate image file
+import Elevate2 from "../assets/Elevate2.png"; // Change to the appropriate image file
 import NBBimg2 from "../assets/nbb1.png"; // Change to the appropriate image file
 import GMTRimg2 from "../assets/GMTR-F1.png"; // Change to the appropriate image file
 import ProjectOverlay from "./ProjectOverlay";
@@ -45,11 +45,11 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
                 <h2>Projects</h2>
-                <p className="sampling">A sampling of my favorite case studies!</p>
+                <p className="sampling">A sampling of my favorites!</p>
                 <Tab.Container id="projects-tabs" activeKey={activeTab} onSelect={handleTabSelect}>
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Brightvine</Nav.Link>
+                  <Nav.Link eventKey="first">Elevate</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">NBB</Nav.Link>
@@ -60,17 +60,18 @@ export const Projects = () => {
               </Nav>
 
               <Tab.Content id="slideInUp" className="content">
+
                 <Tab.Pane eventKey="first">
-                  <img src={windowWidth < 750 ? Brightvineimg2 : Brightvineimg1} alt="Website Designs for fin-tech company" />
-                  <h3>Brightvine</h3>
-                  <h5>Webflow Development for Blockchain Startup</h5>
-                  <button onClick={() => handleOverlayToggle("first", "Brightvine")}>{showOverlay ? "Close Case Study" : "Explore Case Study"}</button>
+                  <img src={windowWidth < 750 ? Elevate2 : Elevate1} alt="Website Designs for Montana gym" />
+                  <h3>Elevate Fitness & Performance Training</h3>
+                  <h5>Figma Designs & Wix Development for Local Gym</h5>
+                  <button onClick={() => handleOverlayToggle("first", "Elevate")}>{showOverlay ? "Close Case Study" : "Explore Case Study"}</button>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="second">
-                  <img src={windowWidth < 750 ? NBBimg2 : NBBimg1} alt="Website Designs for Montana bison company" />
+                  <img src={windowWidth < 750 ? NBBimg2 : NBBimg1} alt="Website Designs for Montana bison ranch" />
                   <h3>North Bridger Bison</h3>
-                  <h5>AdobeXD Designs for Family-owned Business</h5>
+                  <h5>AdobeXD Designs for Montana Bison Company</h5>
                   <button onClick={() => handleOverlayToggle("second", "NBB")}>{showOverlay ? "Close Case Study" : "Explore Case Study"}</button>
                 </Tab.Pane>
 
