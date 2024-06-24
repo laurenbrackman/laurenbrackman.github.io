@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd22e128.css",
-    "main.js": "/static/js/main.690ed888.js",
+    "main.css": "/static/css/main.674d1cc3.css",
+    "main.js": "/static/js/main.92ee25a1.js",
     "static/js/453.534db5b8.chunk.js": "/static/js/453.534db5b8.chunk.js",
     "static/media/Home Page 5.jpg": "/static/media/Home Page 5.425b8b52f7269a379e86.jpg",
     "static/media/Home Page 1.jpg": "/static/media/Home Page 1.871e4fcaf4bb2e597694.jpg",
@@ -10,23 +10,23 @@
     "static/media/banner (2).png": "/static/media/banner (2).984424f12d6d1183739d.png",
     "static/media/gmtrmood.png": "/static/media/gmtrmood.6034a2cacee52dc62bf2.png",
     "static/media/banner (3).png": "/static/media/banner (3).162a61887b99ea0c5e3e.png",
+    "static/media/Elevate2.png": "/static/media/Elevate2.3bf0cff0caac958cc12d.png",
     "static/media/gmtr_home1.png": "/static/media/gmtr_home1.ff8d252e87a2c851bcbc.png",
     "static/media/gmtr_footer1.png": "/static/media/gmtr_footer1.39c14164a952213b99f3.png",
     "static/media/nbb1.png": "/static/media/nbb1.52fc4be303abfa8ee3b2.png",
+    "static/media/Elevate1.png": "/static/media/Elevate1.564236dd586e4c58f4ac.png",
     "static/media/GMTR-F1.png": "/static/media/GMTR-F1.73be9b54f89f61c293ce.png",
-    "static/media/banner (1).png": "/static/media/banner (1).98352e13ba5df899a63a.png",
     "static/media/gmtr_brand.png": "/static/media/gmtr_brand.59fe1d03fbaf43ea40d4.png",
     "static/media/profilephoto.jpeg": "/static/media/profilephoto.a91e71dd39af27a1f1a0.jpeg",
-    "static/media/bv1.png": "/static/media/bv1.68333b0ffb551e2931dc.png",
     "static/media/Lauren_Brackman_Resume.pdf": "/static/media/Lauren_Brackman_Resume.ea19996d9fbda6d3020f.pdf",
     "static/media/name.png": "/static/media/name.f4b1a186593c091629bc.png",
     "index.html": "/index.html",
-    "main.fd22e128.css.map": "/static/css/main.fd22e128.css.map",
-    "main.690ed888.js.map": "/static/js/main.690ed888.js.map",
+    "main.674d1cc3.css.map": "/static/css/main.674d1cc3.css.map",
+    "main.92ee25a1.js.map": "/static/js/main.92ee25a1.js.map",
     "453.534db5b8.chunk.js.map": "/static/js/453.534db5b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd22e128.css",
-    "static/js/main.690ed888.js"
+    "static/css/main.674d1cc3.css",
+    "static/js/main.92ee25a1.js"
   ]
 }
